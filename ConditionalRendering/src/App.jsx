@@ -42,7 +42,7 @@ function App() {
             {signup ? "SignUp" : "Login"}
           </button>
           <div className=" d-flex align-items-center">
-            <span>{signup ? "Have an account ?" : "Don't have a account ?"} </span>
+            <span>{signup ? "Have an account" : "Don't have a account ?"} </span>
             <button className="btn text-danger" onClick={() => setSignup(!signup)}>
             {signup ? "SignIn" : "SignUp"}
             </button>
