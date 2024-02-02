@@ -30,6 +30,7 @@ function App() {
   useEffect(() => {
     localStorage.setItem("todos", JSON.stringify(todos));
   }, [todos]);
+  
   return (
     <TodoProvoder value={{ todos, addTodo, deleteTodo, updateTodo }}>
       <div className="" style={{ height: "100vh" }}>
