@@ -10,6 +10,7 @@ function App() {
       <div class="card" style={{ width: "22rem" }}>
         <div class="card-body">
           <h5 class="card-title">Instagram</h5>
+
           <input
             type="text"
             className="form-control mb-2"
